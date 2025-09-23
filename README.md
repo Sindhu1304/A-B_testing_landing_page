@@ -59,6 +59,26 @@ The project demonstrates the end-to-end process of **data cleaning, exploratory 
 
 ---
 
+## 🗂️ Dataset Description
+The dataset used in this project is a publicly available A/B testing dataset from Kaggle.  
+
+It contains the following key columns:  
+
+- **user_id** → Unique identifier for each user.  
+- **timestamp** → Date and time when the user visited the page.  
+- **group** → Indicates whether the user was in the **control group** (saw the old page) or **treatment group** (saw the new page).  
+- **landing_page** → Which page the user actually landed on (old_page or new_page).  
+- **converted** → Binary variable (0/1) showing whether the user completed the desired action (conversion).  
+- **country** (in a supplementary dataset) → User’s country, useful for segmentation analysis.  
+
+📌 Why these matter:  
+- `group` and `landing_page` help validate correct random assignment.  
+- `converted` is the **key outcome metric** to measure success.  
+- `timestamp` allows analysis of daily/temporal patterns.  
+- `country` enables breakdown by geography.  
+
+---
+
 ## 🛠️ Tools & Libraries
 - **Python**: pandas, numpy, scipy, matplotlib, seaborn  
 - **Jupyter Notebook** for analysis and visualization  
@@ -66,4 +86,4 @@ The project demonstrates the end-to-end process of **data cleaning, exploratory 
 
 ---
 
-## 📂 Project Structure
+
