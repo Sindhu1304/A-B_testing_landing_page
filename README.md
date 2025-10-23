@@ -82,7 +82,16 @@ It contains the following key columns:
 ## 🛠️ Tools & Libraries
 - **Python**: pandas, numpy, scipy, matplotlib, seaborn  
 - **Jupyter Notebook** for analysis and visualization  
-- **Statistical Testing**: Z-test, Chi-square test  
+- **Statistical Testing**: Z-test, Chi-square test
+
+  
+
+---
+
+### Future Product Experiment Ideas
+- Test CTA color and placement impact on first-click rate.
+- Experiment with personalized banners based on user country or device.
+- Measure impact of simplified copy on new user engagement.
 
 ---
 
